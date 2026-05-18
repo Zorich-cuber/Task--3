@@ -3,7 +3,6 @@ package com.bibik.airport.state;
 import com.bibik.airport.entity.AirplaneState;
 import com.bibik.airport.entity.impl.Airplane;
 import com.bibik.airport.util.AirportLogger;
-
 import java.util.concurrent.TimeUnit;
 
 public class BoardingStateImpl implements AirplaneState {
