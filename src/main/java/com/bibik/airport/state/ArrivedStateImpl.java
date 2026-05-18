@@ -5,9 +5,7 @@ import com.bibik.airport.util.AirportLogger;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * State: Airplane has arrived at the airport and is waiting.
- */
+
 public class ArrivedStateImpl implements AirplaneState {
     @Override
     public void handle(Airplane airplane) {
