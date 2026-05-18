@@ -11,7 +11,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class AirportTerminal {
     private static class Holder {
-        private static final AirportTerminal INSTANCE = new AirportTerminal(5); // Number of gates
+        private static final AirportTerminal INSTANCE = new AirportTerminal(5); 
     }
 
     private final List<Gate> gates;
