@@ -23,7 +23,7 @@ public class AirportTerminal {
         for (int i = 1; i <= gateCount; i++) {
             gates.add(new Gate(i));
         }
-        this.semaphore = new Semaphore(gateCount, true); // fair semaphore
+        this.semaphore = new Semaphore(gateCount, true); 
         AirportLogger.info("Airport initialized with " + gateCount + " gates.");
     }
 
