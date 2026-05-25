@@ -13,7 +13,7 @@ public class AirportTerminal {
     private static final Logger logger = LogManager.getLogger(AirportTerminal.class);
 
     private int maxTerminalCapacity;
-    private int currentPassengersInTerminal = 0;
+    private int currentPassengersInTerminal;
 
     private final List<Gate> gates = new ArrayList<>();
 
