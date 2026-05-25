@@ -1,3 +1,6 @@
-100 3 2
-Boeing-737 50 120
-Airbus-A320 40 150
+3;200
+Plane-Alpha;30;25
+Plane-Bravo;35;30
+Plane-Charlie;30;20
+Plane-Delta;40;30
+Plane-Echo;25;15

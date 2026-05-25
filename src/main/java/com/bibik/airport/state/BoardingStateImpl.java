@@ -1,27 +1,17 @@
 package com.bibik.airport.state;
 
-import com.bibik.airport.entity.AirplaneState;
-import com.bibik.airport.entity.impl.Airplane;
-import com.bibik.airport.util.AirportLogger;
+import com.bibik.airport.entity.Plane;
 
 import java.util.concurrent.TimeUnit;
 
-public class BoardingStateImpl implements AirplaneState {
+public class BoardingStateImpl implements PlaneState {
 
     @Override
-    public void handle(Airplane airplane) {
-        AirportLogger.info("Airplane #" + airplane.getId() +
-                " is at the gate. Boarding / disembarking passengers...");
-
+    public void next(Plane airplane) {
         try {
             TimeUnit.SECONDS.sleep(4);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
-    }
-
-    @Override
-    public AirplaneState getStatus() {
-        return this;
     }
 }
