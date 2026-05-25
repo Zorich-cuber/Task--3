@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6d8fbe8-3e2c-45d9-94e7-a798f31fbf71" name="Changes" comment="2 commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bibik/airport/entity/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bibik/airport/state/DepartedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bibik/airport/state/InFlightState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/bibik/airport/state/PlaneState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bibik/airport/entity/AirplaneState.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bibik/airport/entity/impl/Airplane.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bibik/airport/entity/impl/AirportTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bibik/airport/entity/AirportTerminal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bibik/airport/entity/impl/Gate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bibik/airport/entity/Gate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bibik/airport/parser/AirportDataParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bibik/airport/parser/impl/AirportDataParserImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bibik/airport/state/ArrivedStateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bibik/airport/state/ArrivedState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bibik/airport/state/BoardingStateImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bibik/airport/state/BoardingStateImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bibik/airport/state/DepartedStateImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bibik/airport/util/AirportLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bibik/airport/entity/impl/AirportTerminal.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +85,23 @@
       <option name="project" value="LOCAL" />
       <updated>1779118783756</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2 commit">
+      <option name="closed" value="true" />
+      <created>1779723916101</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779723916101</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2 commit">
+      <option name="closed" value="true" />
+      <created>1779724008000</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779724008000</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
